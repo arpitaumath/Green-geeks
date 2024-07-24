@@ -1,0 +1,881 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+.main-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(250, 245, 238);
+}
+.navbar{
+width: 100%;
+height: 25%;
+background-color: white;
+box-shadow:0px 0px 3px 3px rgb(200, 190, 190) ;
+display: flex;
+justify-content: space-between
+}
+.left{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+
+}
+.left img{
+    width: 220px;
+    height: 80px;
+}
+.left ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.left ul li{
+    list-style: none;
+}
+.left ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.right {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.right ul{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+   
+    justify-content: space-evenly;
+    
+}
+.right ul li{
+    list-style: none;
+}
+.right ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.text-area{
+    width: 100%;
+    height: 800px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.text-part{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.image-part{
+    width: 50%;
+    height:auto;
+}
+.text h1{
+    font-size: 50px;
+    color: rgb(35, 97, 35);
+}
+.text p{
+    font-size: 20px;
+    line-height: 40px;
+}
+.text button{
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-block: 20px;
+    background-color:rgb(35, 97, 35);
+}
+.last-part{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    
+}
+.last-part img{
+    width: 200px;
+    height: 100px;
+    margin-right: 20px;
+}
+.last-part p{
+    font-size: 25px;
+
+    color: rgb(92, 90, 90);
+}
+.second-page{
+    width: 100%;
+    height: auto;
+    
+
+}
+ #top-h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 30px;
+}
+.second-page h6{
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+}
+.cards{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-block: 40px;
+}
+.card-1{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.card-2{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 43%;
+    height: 500px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    border: 2px solid rgb(79, 76, 76);
+}
+.card i{
+    font-size: 100px;
+    color:rgb(35, 97, 35);
+}
+.card h1{
+    line-height: 40px;
+    font-size: 30px;
+}
+.card p{
+    line-height: 30px;
+    font-size: 15px;
+
+}
+.card h5{
+    font-size: 20px;
+    line-height: 20px;
+}
+.card button
+{
+    width: 160px;
+    height: 40px;
+    margin: 20px;
+    background-color:rgb(35, 97, 35);
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.third{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.left-img{
+    width: 50%;
+    height: 100vh;
+}
+.left-img img{
+    width: 100%;
+   height: 100%;
+}
+.right-text{
+    width: 50%;
+    height: 100vh;
+    padding: 50px;
+    color: white;
+    background-color: rgb(35, 97, 35);
+}
+.point{
+    width: 100%;
+    display: flex;
+    margin: 30px;
+}
+.t-left{
+    width: 20%;
+}
+.t-left i{
+    font-size: 30px;
+}
+.t-right{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.t-right h1{
+    font-size: 30px;
+
+}
+.t-right p{
+    font-size: 18px;
+}
+.fourth{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+    background-color: rgb(35, 97, 35);
+}
+.f-left{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.f-left h6{
+    font-size: 15px;
+}
+.f-left h1{
+    font-size: 30px;
+    margin-block: 20px;
+}
+.f-left p{
+    font-size: 20px;
+    line-height: 35px;
+}
+.f-left p:last-child{
+    margin-block: 50px;
+   
+}
+.f-left a{
+    color: white;
+    font-size: 20px;
+}
+.f-right{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.f-right img{
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+}
+.fifth{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+}
+.fifth h1{
+    font-size: 50px;
+    text-align: center;
+}
+.fifth h5{
+    font-size: 30px;
+    text-align: center;
+}
+.f-first{
+    width: 100%;
+    height:auto ;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.div{
+    width: 30%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+.div i{
+    font-size: 60px;
+    margin: 30px;
+    color:rgb(35, 97, 35);
+}
+.div h2{
+    font-size: 30px;
+}
+.div p{
+    font-size: 20px;
+}
+.f-second{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sixth{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 30px;
+    background-color: rgb(232, 240, 243);
+    flex-direction: column;
+}
+.s-first{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.s-left{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s-left img{
+    width: 500px;
+    height: 500px;
+
+}
+.s-right
+{
+    width: 50%;
+    height: auto;
+
+}
+.s-right h1{
+    font-size: 50px;
+}
+.s-right p{
+    font-size: 25px;
+    line-height: 40px;
+    padding-block: 20px;
+}
+.sixth button{
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color: rgb(35, 97, 35);
+    border: none;
+    margin-inline: 45% ;
+    margin-block: 30px;
+    font-size: 20px;
+}
+.s-last{
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+    justify-content: space-around;
+}
+.s-last div{
+    width: 28%;
+    height: 400px;
+    padding: 40px;
+    background-color: rgb(213, 238, 247);;
+
+}
+.s-last div img{
+    width: 200px;
+    height: 80px;
+}
+.s-last div h2{
+    font-size: 30px;
+    padding-block: 20px;
+
+}
+.s-last div p{
+    font-size: 20px;
+    
+}
+.review-section{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    
+}
+.review-section h6{
+    text-align: center;
+    font-size: 30px;
+}
+.review-section h2{
+    text-align: center;
+    font-size: 50px;
+
+}
+.review-section span{
+    color: green;
+}
+.review-card{
+width: 100%;
+height: auto;
+display: flex;
+margin-block: 40px;
+justify-content: space-around;
+
+
+}
+.review-card div i{
+    font-size: 10px;
+    color: green;
+   
+
+}
+.review-card div{
+    width: 15%;
+    height: auto;
+    background-color: rgb(200, 248, 232);
+    padding: 30px;
+}
+.review-card div p{
+    font-size: 10px;
+}
+.seventh{
+    width: 100%;
+    height: auto;
+    padding-block: 80px;
+    background-color: rgb(245, 232, 235);
+
+}
+.seventh h1{
+    font-size: 50px;
+    text-align: center;
+}
+.seventh p{
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+
+}
+.seventh button{
+    width: 200px;
+    height: 40px;
+    margin-left: 600px;
+    margin-block: 30px;
+    border: none;
+    color: white;
+    font-size: 30px;
+    background-color: rgb(35, 97, 35);
+}
+
+.last{
+    width: 100%;
+    height: auto;
+    display: flex;
+    color: white;
+    background-color: rgb(4, 61, 61);;
+    
+
+}
+.last div{
+    width: 25%;
+    height: auto;
+    padding: 30px;
+}
+.last div h6{
+    font-size: 20px;
+    padding-block: 20px;
+
+}
+.last div ul li{
+ list-style: none;
+ padding-block: 5px;
+}
+.last div p{
+    padding-block: 20px;
+}
+.last div img{
+    width: 120px;
+    margin: 20px;
+}
+.foter{
+    width: 100%;
+    height: auto;
+    background-color: rgb(4, 61, 61);
+    color: white;
+    display: flex;
+    padding-block: 50px;
+
+}
+.foter-left{
+    width: 70%;
+   padding-left: 20px;
+}
+.foter-left a{
+    color: white;
+    line-height: 70px;
+}
+.foter-right{
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+}
+.foter-right i{
+    padding-right: 20px;
+}
+/* responsive 768 */
+
+@media(max-width:768px) {
+    .main-container{
+        width: 100%;
+        height: auto;
+    }
+    .navbar{
+        width: 100%;
+        height: auto;
+    }
+    .left {
+
+        width: 50%;
+        height: auto;
+    }
+    .left ul{
+        display: none;
+    }
+    .right{
+        width: 50%;
+        height: auto;
+    }
+    .text-area{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+       
+    }
+    .text-part{
+        width: 80%;
+        height: auto;
+        margin-block: 20px;
+    }
+    .text br{
+        display: none;
+    }
+    .image-part{
+        width: 100%;
+        height: auto;
+    }
+    .image-part img{
+        width: 80%;
+    }
+    .last-part{
+        width: 100%;
+        height: auto;
+        margin-inline: 50px;
+    }
+    .last-part img{
+        width: 20%;
+        height: auto;
+       
+    }
+    .last-part p{
+        width: 60%;
+        height: auto;
+        font-size: 20px;
+    }
+    .second-page{
+        width: 100%;
+        height: auto;
+       
+    }
+    #top-h1{
+        font-size: 40px;
+    }
+    .second-page h6{
+        font-size: 25px;
+    }
+    .cards{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+    .card-1{
+        width: 100%;
+        height: auto;
+    }
+    .card-2{
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+    }
+    .card{
+        width:44%;
+        height: auto;
+    }
+    .card i{
+        font-size: 80px;
+        margin: 30px;
+    }
+    .card h1{
+        font-size: 30px;
+    }
+    .card p{
+        font-size: 15px;
+    }
+    .card h5{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .card button{
+        width: 120px;
+        height: 40px;
+    }
+
+    .third{
+        width: 100%;
+        height: auto;
+    }
+    .left-img{
+        display: none;
+    }
+    .right-text{
+        width: 100%;
+        height: auto;
+    }
+    .right-text h1{
+
+        font-size: 50px;
+    }
+    .t-left{
+        align-items: center;
+        justify-content: center;
+    }
+    .t-left i{
+    font-size: 40px;
+    }
+    .t-right h1{
+        font-size: 40px;
+    }
+    .t-right p{
+        font-size: 30px;
+    }
+    .fourth{
+        width: 100%;
+        height: auto;
+    }
+    .f-right{
+        display: none;
+    }
+    .f-left{
+        width:100%;
+        height: auto;
+ 
+    }
+    .fifth{
+        width: 100%;
+        height: auto;
+
+    }
+    .fifth p{
+        font-size: 12px;
+
+    }
+    .f-first{
+        width: 100%;
+        height: auto;
+    }
+    .div h2{
+        font-size: 20px;
+    }
+    .f-second{
+        width: 100%;
+        height: auto;
+    }
+    .sixth{
+        width: 100%;
+        height: auto;
+        padding: 0px;
+
+    }
+    .s-first {
+        width: 100%;
+        height: auto;
+
+    }
+    .s-left{
+       display: none;    
+        }
+        .s-right{
+            width: 100%;
+        }
+        .s-last{
+            width: 100%;
+            height:auto;
+            flex-direction: column;
+            align-content: center;
+            justify-content: center;
+        
+        }
+        .s-last div{
+            width:100%;
+            height: auto;
+            margin-block: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        .s-last div img{
+                    width: 150px;
+                    
+        }
+        .review-card {
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            align-items: center;
+            
+        }
+        .review-card div{
+            width: 70%;
+            height: auto;
+            margin-block: 30px;
+        }
+        .seventh{
+            width: 100%;
+            height: auto;
+        }
+        .seventh button{
+            margin-left: 35%;
+        }
+
+
+    }
+        /* responsive 480 */
+
+        @media (max-width:480px)
+        {
+            .main-container{
+                width: 100%;
+                height: auto;
+                
+            }
+            
+            .last-part p{
+                font-size: 10px;
+               
+            }
+            #top-h1{
+                font-size: 30px;
+            }
+            .second-page h6{
+                font-size: 20px;
+            }
+            
+            .card-1{
+                flex-direction: column;
+                align-items: center;
+                
+            }
+            .card-2{
+                flex-direction: column;
+                align-items: center;
+            }
+            .card{
+                width: 80%;
+                margin-block: 20px;
+            }
+            .right-text{
+                padding: 5px;
+            }
+            .right-text h1{
+                font-size: 20px;
+            }
+            .point{
+                flex-direction: column;
+                
+            }
+            .t-right h1{
+                font-size: 30px;
+            }
+            .t-right p{
+                font-size: 15px;
+            }
+            .fifth h1{
+                font-size: 25px;
+            }
+            .fifth h5{
+                font-size: 20px;
+            }
+            .f-first{
+                flex-direction: column;
+            }
+            .f-first div{
+                width: 100%;
+                height: auto;
+                padding: 0px;
+                
+            }
+            .f-second{
+                flex-direction: column;
+            }
+            .f-second div{
+                width: 100%;
+                height: auto;
+                padding: 0px;
+              
+                
+            }
+            .s-right p{
+                font-size: 20px;
+            }
+            .sixth button{
+                margin-left: 20px;
+            }
+            .s-last div img{
+                width: 80%;
+            }
+            .review-section h2{
+                font-size: 30px;
+            }
+            .review-card div{
+                width: 100%;
+            }
+            .seventh p{
+                font-size: 20px;
+            }
+            .seventh button{
+                margin-left: 20px;
+            }
+            .last{
+               width: 100%;
+               height: auto;
+               flex-direction: column;
+            }
+            .last div{
+            width: 80%;
+               
+            }
+            .foter-right{
+                display: none;
+            }
+        }
