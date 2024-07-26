@@ -651,16 +651,9 @@ justify-content: space-around;
     }
 
     .third{
-        width: 100%;
-        height: auto;
+      display: none;
     }
-    .left-img{
-        display: none;
-    }
-    .right-text{
-        width: 100%;
-        height: auto;
-    }
+    
     .right-text h1{
 
         font-size: 50px;
